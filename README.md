@@ -1,3 +1,13 @@
+## About this fork
+
+This is a development fork of [KCL-BMEIS/NiftySeg](https://github.com/KCL-BMEIS/NiftySeg), the toolkit for expectation-maximization segmentation and label fusion in NIfTI and Analyze images. Its locally adaptive brain segmentation and multiple label-fusion methods are useful for research workflows that combine image intensities, priors, or candidate segmentations.
+
+The fork's [upstream PR #18](https://github.com/KCL-BMEIS/NiftySeg/pull/18) proposes forwarding macOS target architectures to the optional NiftyReg build. It was open on 17 October 2026; the linked feature branch records this specific build change.
+
+Follow the [upstream build instructions](https://github.com/KCL-BMEIS/NiftySeg#readme) and the CMake options documented below to configure segmentation tools and optional components. [Compare the default branch with upstream](https://github.com/jdotc1/NiftySeg/compare/KCL-BMEIS:master...jdotc1:master). The original onboarding, project attribution, and BSD license text follow unchanged.
+
+---
+
 # NIFTYSEG PACKAGE #
 
 --------------------------------
